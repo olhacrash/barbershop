@@ -1,0 +1,30 @@
+.gallery {
+    display: flex;
+    flex-direction: column;
+}
+
+.gallery__list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.gallery__text {
+    margin-bottom: 44px;
+
+font-style: bold;
+text-transform: uppercase;
+font-size: 11px;
+font-weight: 600;
+line-height: calc(15 / 11);
+}
+
+.gallery__text::before {
+    content: "";
+    display: inline-block;
+    width: 60px;
+    height: 1px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+    background-color: var(--primary-gray-color);
+}

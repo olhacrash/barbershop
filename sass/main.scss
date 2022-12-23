@@ -1,0 +1,15 @@
+// base styles
+@import './base/base';
+@import './base/reset';
+// utils styles
+@import './utils/variables';
+@import './utils/v-hidden';
+// components styles
+@import './components/header';
+@import './components/hero';
+@import './components/about-us';
+@import './components/price';
+@import './components/why-us';
+@import './components/team';
+@import './components/socials-links';
+@import './components/gallery';

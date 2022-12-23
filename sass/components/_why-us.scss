@@ -1,0 +1,79 @@
+.why-us__block {
+    display: flex;
+    justify-content: center;
+    gap: 154px;
+}
+
+.benefits-top {
+    max-width: 370px;
+}
+
+.why-us__list {
+     display: flex;
+     flex-wrap: wrap;
+     align-items: flex-start;
+}
+
+.why-us__item {
+    max-width: 170px;
+  min-height: 133px;
+    padding: 20px 24px;
+
+  background-color: var(--bcg-color-gray);
+  text-align: center;
+
+  &:nth-child(2n) {
+      margin-top: 30px;
+      margin-left: 30px;
+    }
+}
+
+.why-us__num {
+    font-style: bold;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: calc(57 / 42);
+
+    position: relative;
+    display: inline-block;
+
+    &:after {
+    content: '\002B';
+    position: absolute;
+    top: 6px;
+    right: -15px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: calc(22 / 16);
+
+    color: var(--accent-color);
+  }
+}
+
+.why-us__text {
+    margin-top: 6px;
+    max-width: 122px;
+    font-size: 11px;
+    line-height: calc(15 / 11);
+}
+
+.benefits__text {
+    text-transform: uppercase;
+    font-size: 11px;
+    line-height: calc(15 / 11);
+}
+
+.benefits__title {
+    margin-top: 20px;
+    max-width: 430px;
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: calc(49 / 42);
+}
+
+.benefits__reason {
+    margin-top: 20px;
+    max-width: 500px;
+    color: var(--accent-text-color);
+}

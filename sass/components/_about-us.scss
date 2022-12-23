@@ -1,0 +1,57 @@
+.our-conditions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.about-us__images {
+    display: flex;
+    gap: 30px;
+}
+
+.about-us__word {
+font-weight: 600;
+font-size: 11px;
+line-height: calc(15 / 11);
+
+text-transform: uppercase;
+}
+
+.about-us__title {
+    width: 470px;
+    margin-top: 20px;
+
+font-family: Raleway, sans-serif;
+font-size: 42px;
+font-weight: 700;
+line-height: calc(49 / 42);
+letter-spacing: 0.05em;
+}
+
+.about-us__text {
+width: 470px;
+margin-top: 20px;
+
+color: var(--accent-text-color);
+}
+
+.about-us__area {
+width: 470px;
+margin-top: 20px;
+
+    font-size: 14px;
+    line-height: calc(26 / 14);
+
+    color: var(--accent-text-color);
+}
+
+.aboutus--btn {
+margin-top: 42px;
+
+    color: var(--primary-gray-color);
+    font-weight: 600;
+font-size: 12px;
+line-height: calc(16 / 12);
+letter-spacing: 0.09em;
+}
